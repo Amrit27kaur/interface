@@ -14,6 +14,7 @@
 		55780FB922A093D700510B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55780FB722A093D700510B79 /* LaunchScreen.storyboard */; };
 		55780FC422A093D700510B79 /* interfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55780FC322A093D700510B79 /* interfaceTests.swift */; };
 		55780FCF22A093D700510B79 /* interfaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55780FCE22A093D700510B79 /* interfaceUITests.swift */; };
+		55780FDD22A099D100510B79 /* ImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55780FDC22A099D100510B79 /* ImgViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		55780FCA22A093D700510B79 /* interfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = interfaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55780FCE22A093D700510B79 /* interfaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interfaceUITests.swift; sourceTree = "<group>"; };
 		55780FD022A093D700510B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55780FDC22A099D100510B79 /* ImgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				55780FAE22A093D500510B79 /* AppDelegate.swift */,
 				55780FB022A093D500510B79 /* ViewController.swift */,
 				55780FB222A093D500510B79 /* Main.storyboard */,
+				55780FDC22A099D100510B79 /* ImgViewController.swift */,
 				55780FB522A093D700510B79 /* Assets.xcassets */,
 				55780FB722A093D700510B79 /* LaunchScreen.storyboard */,
 				55780FBA22A093D700510B79 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55780FB122A093D500510B79 /* ViewController.swift in Sources */,
+				55780FDD22A099D100510B79 /* ImgViewController.swift in Sources */,
 				55780FAF22A093D500510B79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
